@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="glavnoe.css">
+
+    <!-- modal -->
+
+    <!-- header -->
+    <nav class="navbar navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Santa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="glavnoe.html">Buyurtma berish</a>
+                        <a class="nav-link" href="glavnoe.html">Premium</a>
+                        <a class="nav-link" href="glavnoe.html">Ecanom</a>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                            <button class="btn btn-primary float-end open" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            </svg>
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+
+    <!-- header end -->
+    <!-- Carusel start -->
+    <div id="carouselExampleCaptions media" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/card/santaPremium.jpg" class="d-block w-100 height" alt="PremiumQorbobo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PremiumQorbobo</h5>
+                    <p>Bunga buyurtma berish</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/card/oddiySanta.jpg" class="d-block w-100 height" alt="OddiyQorbobo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>OddiyQorbobo</h5>
+                    <p>Bunga buyurtma berish</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/card/qimmatSanta.jpg" class="d-block w-100 height" alt="QimmatQorbobo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>QimmatQorbobo</h5>
+                    <p>Bunga buyurtma berish</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carusel End -->
+    <!-- CARD START -->
+    <div class="card-group  product">
+        <div class="card product">
+            <img src="/card/santaPremium.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">QimmatQorbobo</h5>
+                <p class="card-text">Bu yerda sovg'alari ko'proq qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="card-footer product">
+                <small class="text-muted">sovg'alar ko'proq</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+        <div class="card product">
+            <img src="/card/qimmatSanta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">PremiumQorbobo</h5>
+                <p class="card-text ">Bu yerda sovg'alari ko'proq qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="card-footer product">
+                <small class="text-muted">sovgalar cheklangan</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+        <div class="card product">
+            <img src="/card/oddiySanta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">OddiyQorbobo</h5>
+                <p class="card-text">Bu yerda cheklangan sovg'alarga ega qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="card-footer product">
+                <small class="text-muted">sovgalar cheklangan</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="product card ">
+            <img src="/card/santaPremium.jpg" class="card-img-top" alt="PremiumQorbobo">
+            <div class="card-body">
+                <h5 class="card-title">2karra sovg'alar</h5>
+                <p class="card-text">Bu bo'limda siz 2 karra katta 2 karra koproq sovg'alarga ega qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="product card-footer ">
+                <small class="text-muted">qimmat Qorbobo 2x</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+        <div class="product card ">
+            <img src="/card/qimmatSanta.jpg" class="card-img-top" alt="QimmatQorbobo">
+            <div class="card-body">
+                <h5 class="card-title">2karra sovg'alar</h5>
+                <p class="card-text">Bu bo'limda siz 2 karra katta 2 karra koproq sovg'alarga ega qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="product card-footer">
+                <small class="text-muted">Premium Qorbobo 2x</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+        <div class="card product">
+            <img src="/card/oddiySanta.jpg" class="card-img-top" alt="OddiyQorbobo">
+            <div class="card-body">
+                <h5 class="card-title">2karra sovg'alar</h5>
+                <p class="card-text">Bu bo'limda siz 2 karra katta 2 karra koproq sovg'alarga ega qorboboga buyurtma bera olasiz</p>
+            </div>
+            <div class="product card-footer ">
+                <small class="text-muted">Oddiy Qorbobo 2x</small>
+                <button class="btnPoduct btn btn-primary">Savatga Qo'shishi</button>
+            </div>
+        </div>
+    </div>
+    <!-- CARD END -->
+    <!-- footer -->
+    <div id="footer">
+        <h1>&copy;IT Maxximum</h1>
+    </div>
+    <script src="glavnoe.js"></script>
+
+    <body>
+        <!-- JS features -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="snowstorm-min.js"></script>
+        <script>
+            window.onload = function() {
+
+                snowStorm.snowColor = "#fff"; // Qorni rangi
+                snowStorm.flakesMaxActive = 100; // Qorni kolvo
+                snowStorm.followMouse = true; // true mishka izindan fals prostoy
+                snowStorm.snowCharacter = "&bull;"; // qorni turi
+            };
+        </script>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="countdown.css">
+    <style>
+        body {
+            background: #a9e1fa;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .menu__link--active svg {
+            stroke: #ff4c4c;
+        }
+        
+        .menu__link--active svg,
+        .menu__link:hover svg {
+            stroke-dashoffset: 0;
+            opacity: 1;
+            -webkit-transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- sardor -->
+    <div class="nightMode">
+        <button class="onclick">MODE</button>
+    </div>
+
+    <div class="container">
+        <h2 style="text-align: center; position: relative; box-sizing: border-box; overflow-x:hidden; left: 55px;">2021</h2>
+        <h3>Countdown For 2022</h3>
+
+        <div class="general">
+
+            <div class="box">
+                <h2 id="days"></h2>
+                <h4>DAYS</h4>
+            </div>
+            <div class="box">
+                <h2 id="hours"></h2>
+                <h4>HOURS</h4>
+            </div>
+            <div class="box">
+                <h2 id="minutes"></h2>
+                <h4>MINUTES</h4>
+            </div>
+            <div class="box">
+                <h2 id="seconds"></h2>
+                <h4>SECONDS</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="back">
+        <h1> <a class="a" href="index.html">HOME</a></h1>
+    </div>
+
+
+
+    <script src="snowstorm-min.js"></script>
+    <script src="countdown.js"></script>
+
+    <!-- Shohrux -->
+    <script>
+        window.onload = function() {
+
+            snowStorm.snowColor = "#fff"; // Qorni rangi
+            snowStorm.flakesMaxActive = 100; // Qorni kolvo
+            snowStorm.followMouse = true; // true mishka izindan fals prostoy
+            snowStorm.snowCharacter = "&bull;"; // qorni turi
+        };
+    </script>
+
+</body>
+
+</html>
